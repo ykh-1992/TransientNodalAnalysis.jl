@@ -4,7 +4,6 @@ struct Oil
     compressibility::Float64 # 1/psi
     expansion::Float64       # 1/°F
     capacity::Float64        # Btu/lb-°F
-    # factor::Float64          # RB/STB #!!!
 end
 
 struct Reservoir
