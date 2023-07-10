@@ -263,7 +263,7 @@ function run_batch_simulation(
     
     wells_path = joinpath(path, "wells.csv")
     data_path  = joinpath(path, "data.csv")
-    aux_path   = joinpath(path, "auxilliary.csv")
+    aux_path   = joinpath(path, "auxiliary.csv")
 
     CSV.write(wells_path, wells_dataframe)
     CSV.write(aux_path, aux_dataframe)
